@@ -1,0 +1,118 @@
+
+
+/* task-1 */
+.outer-box {
+    border:3px solid black;
+    width: 150px;
+    height:150px;
+    position:relative;
+    padding:100px;
+    margin:20px;
+}
+
+
+.inner-box {
+    width: 150px;
+    height:150px;
+    border: 3px solid red;
+    position:absolute;
+    padding:10px;
+    left:80px;
+     top:80px; 
+    background-color:powderblue;
+}
+
+
+/* task-2 */
+.card {
+    border:3px solid black;
+    width: 250px;
+    height:250px;
+    position:relative;
+    margin:20px;
+}
+
+
+.icon {
+    width: 150px;
+    height:150px;
+    border: 3px solid green;
+    background-color:powderblue;
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+    /* task-3 */
+.tooltip-container {
+    width:200px;
+    height:200px;
+    position: relative; 
+    border:2px solid black;
+
+  }
+  
+  .button {
+    padding: 10px;
+    margin:50px;
+
+     /* cursor: pointer;  */
+}
+  
+  .tooltip {
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:30px;
+    left:20px;
+    background-color:lightgray;
+    /* padding: 5px ; */
+    /* white-space: nowrap; Prevent wrapping */
+    /* visibility: hidden; Initially hide the tooltip */
+  }
+
+        /* task-4 */
+        .avatar-container{
+            width:380px;
+            height:500px;
+            position:relative;
+            padding: 0px;
+            border:2px solid black;
+            
+        }
+        
+         .avater {
+            position:relative;
+           
+        }
+
+
+        .badge {
+            position:relative;
+            width:90px;
+            height:100px;
+            position:absolute;
+            top:0px;
+            right:0px;
+            background-color: aqua;
+        }
+
+
+        /* task-5 */
+         .image-container{ 
+             width:40px;
+            height:50px;
+            position:absolute;
+            border:3px solid black
+
+
+        }
+        .overlay {
+            color:white;
+            width: 80px;
+            height: 40px;
+            border: 3px dotted white;
+            position: absolute;
+            top: 0px;
+            left: 120px;
+       } 
